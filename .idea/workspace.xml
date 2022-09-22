@@ -11,12 +11,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:mymaster" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:b1" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="初始代码" />
+    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="新增了element-icons.woff文件,workspace.xml照常上传">
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -186,7 +193,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="mymaster" />
+                        <option value="b1" />
                       </list>
                     </value>
                   </entry>
@@ -202,6 +209,7 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始代码" />
@@ -296,10 +304,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="286" y="84" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1662184175049" />
-    <state x="463" y="149" key="Vcs.Push.Dialog.v2" timestamp="1662187144766">
+    <state x="463" y="149" key="Vcs.Push.Dialog.v2" timestamp="1663852316620">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="463" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1662187144766" />
+    <state x="463" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1663852316620" />
     <state x="564" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1662185637622">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -308,6 +316,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="313" y="137" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.816@0.0.1536.816" timestamp="1658460151767" />
+    <state x="565" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1663852459380">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="565" y="307" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.816@0.0.1536.816" timestamp="1663852459380" />
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1658889752980">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
