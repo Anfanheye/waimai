@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="reggle_take_xiao" />
+        <module name="Waimai" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Waimai" options="-parameters" />
       <module name="reggle_take_xiao" options="-parameters" />
     </option>
   </component>
