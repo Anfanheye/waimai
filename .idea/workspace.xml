@@ -17,9 +17,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="名称改变">
-      <change beforePath="$PROJECT_DIR$/.idea/Waimai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Waimai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_9_22_21_09_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_9_22_21_09__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.woff" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/reggie/entity" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.17033604" />
@@ -86,14 +95,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\Waimai\src\main\java\com\reggie\entity" />
+      <recent name="Y:\Waimai\src\main\java\com\reggie\utils" />
       <recent name="Y:\Ruigie\src\main\resources\front" />
       <recent name="Y:\Ruigie\src\main\resources\backend\styles\icon" />
       <recent name="Y:\Ruigie\src\main\java\com\reggie\entity" />
-      <recent name="Y:\Ruigie\src\main\java\com\reggie\utils" />
-      <recent name="Y:\Ruigie\src\main\java\com\reggie\dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Reggieappliction (1)">
+    <configuration name="Reggieappliction (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Waimai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.Reggieappliction" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Reggieappliction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="reggle_take_xiao" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.Reggieappliction" />
@@ -101,6 +123,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Reggieappliction (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -132,7 +159,9 @@
       <workItem from="1662094969524" duration="9333000" />
       <workItem from="1662183947560" duration="2590000" />
       <workItem from="1664166118745" duration="1024000" />
-      <workItem from="1664178950307" duration="417000" />
+      <workItem from="1664178950307" duration="1898000" />
+      <workItem from="1665059418826" duration="1311000" />
+      <workItem from="1665103780485" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="初始代码">
       <created>1662186185121</created>
@@ -279,38 +308,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="282" y="145" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1662185556809" />
-    <state width="1493" height="27" key="GridCell.Tab.0.bottom" timestamp="1662123469496">
+    <state width="1493" height="333" key="GridCell.Tab.0.bottom" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1662123469496" />
-    <state width="1493" height="27" key="GridCell.Tab.0.center" timestamp="1662123469495">
+    <state width="1493" height="333" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
+    <state width="1493" height="333" key="GridCell.Tab.0.center" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1662123469495" />
-    <state width="1493" height="27" key="GridCell.Tab.0.left" timestamp="1662123469495">
+    <state width="1493" height="333" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
+    <state width="1493" height="333" key="GridCell.Tab.0.left" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1662123469495" />
-    <state width="1493" height="27" key="GridCell.Tab.0.right" timestamp="1662123469496">
+    <state width="1493" height="333" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
+    <state width="1493" height="333" key="GridCell.Tab.0.right" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1662123469496" />
-    <state width="1493" height="27" key="GridCell.Tab.1.bottom" timestamp="1662123469496">
+    <state width="1493" height="333" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
+    <state width="1493" height="333" key="GridCell.Tab.1.bottom" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1662123469496" />
-    <state width="1493" height="27" key="GridCell.Tab.1.center" timestamp="1662123469496">
+    <state width="1493" height="333" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
+    <state width="1493" height="333" key="GridCell.Tab.1.center" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1662123469496" />
-    <state width="1493" height="27" key="GridCell.Tab.1.left" timestamp="1662123469496">
+    <state width="1493" height="333" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
+    <state width="1493" height="333" key="GridCell.Tab.1.left" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1662123469496" />
-    <state width="1493" height="27" key="GridCell.Tab.1.right" timestamp="1662123469496">
+    <state width="1493" height="333" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
+    <state width="1493" height="333" key="GridCell.Tab.1.right" timestamp="1665105628704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="27" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1662123469496" />
+    <state width="1493" height="333" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665105628704" />
     <state width="1493" height="281" key="GridCell.Tab.2.bottom" timestamp="1662037310768">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -335,10 +364,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="463" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1664179026610" />
-    <state x="564" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1663853288778">
+    <state x="564" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1665104863648">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="564" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1663853288778" />
+    <state x="564" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1665104863648" />
     <state x="313" y="137" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1658460151767">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
