@@ -16,11 +16,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="修改了移动端获取验证码代码，在login.js中新增了一个功能，新增了User一系列方法">
+    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="无">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/AddressBookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/entity/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/AddressBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/front/page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/reggie/entity" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.17033604" />
@@ -87,9 +90,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\Waimai\src\main\java\com\reggie\entity" />
       <recent name="Y:\Waimai\src\main\resources\front\page" />
       <recent name="Y:\Waimai\src\main\resources\front\api" />
-      <recent name="Y:\Waimai\src\main\java\com\reggie\entity" />
       <recent name="Y:\Waimai\src\main\java\com\reggie\utils" />
       <recent name="Y:\Ruigie\src\main\resources\front" />
     </key>
@@ -153,7 +156,8 @@
       <workItem from="1664166118745" duration="1024000" />
       <workItem from="1664178950307" duration="1898000" />
       <workItem from="1665059418826" duration="1311000" />
-      <workItem from="1665103780485" duration="3615000" />
+      <workItem from="1665103780485" duration="3633000" />
+      <workItem from="1665107460128" duration="3526000" />
     </task>
     <task id="LOCAL-00001" summary="初始代码">
       <created>1662186185121</created>
@@ -204,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665106266748</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="无">
+      <created>1665107438903</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665107438903</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +280,8 @@
     <MESSAGE value="新增了element-icons.woff文件,workspace.xml照常上传" />
     <MESSAGE value="名称改变" />
     <MESSAGE value="修改了移动端获取验证码代码，在login.js中新增了一个功能，新增了User一系列方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了移动端获取验证码代码，在login.js中新增了一个功能，新增了User一系列方法" />
+    <MESSAGE value="无" />
+    <option name="LAST_COMMIT_MESSAGE" value="无" />
   </component>
   <component name="WindowStateProjectService">
     <state x="272" y="0" key="#Project_Structure" timestamp="1658126160946">
@@ -296,6 +308,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="484" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1660743790712" />
+    <state x="544" y="275" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1665110034160">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="544" y="275" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1665110034160" />
     <state x="524" y="110" key="#xdebugger.evaluate" timestamp="1658281608340">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -308,54 +324,54 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="282" y="145" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1662185556809" />
-    <state width="1493" height="333" key="GridCell.Tab.0.bottom" timestamp="1665107273877">
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665107273877" />
-    <state width="1493" height="333" key="GridCell.Tab.0.center" timestamp="1665107273876">
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1665109338496">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665107273876" />
-    <state width="1493" height="333" key="GridCell.Tab.0.left" timestamp="1665107273876">
+    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665109338496" />
+    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1665109338496">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665107273876" />
-    <state width="1493" height="333" key="GridCell.Tab.0.right" timestamp="1665107273877">
+    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665109338496" />
+    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665107273877" />
-    <state width="1493" height="333" key="GridCell.Tab.1.bottom" timestamp="1665107273877">
+    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.1.bottom" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665107273877" />
-    <state width="1493" height="333" key="GridCell.Tab.1.center" timestamp="1665107273877">
+    <state width="1493" height="267" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.1.center" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665107273877" />
-    <state width="1493" height="333" key="GridCell.Tab.1.left" timestamp="1665107273877">
+    <state width="1493" height="267" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.1.left" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665107273877" />
-    <state width="1493" height="333" key="GridCell.Tab.1.right" timestamp="1665107273877">
+    <state width="1493" height="267" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.1.right" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="333" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665107273877" />
-    <state width="1493" height="281" key="GridCell.Tab.2.bottom" timestamp="1662037310768">
+    <state width="1493" height="267" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.2.bottom" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1662037310768" />
-    <state width="1493" height="281" key="GridCell.Tab.2.center" timestamp="1662037310768">
+    <state width="1493" height="267" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.2.center" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1662037310768" />
-    <state width="1493" height="281" key="GridCell.Tab.2.left" timestamp="1662037310768">
+    <state width="1493" height="267" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.2.left" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1662037310768" />
-    <state width="1493" height="281" key="GridCell.Tab.2.right" timestamp="1662037310768">
+    <state width="1493" height="267" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
+    <state width="1493" height="267" key="GridCell.Tab.2.right" timestamp="1665109338497">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1662037310768" />
+    <state width="1493" height="267" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1665109338497" />
     <state x="286" y="84" key="SettingsEditor" timestamp="1662184175049">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -380,9 +396,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="565" y="307" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.816@0.0.1536.816" timestamp="1663852744494" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1658889752980">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1665108221355">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1658889752980" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1665108221355" />
   </component>
 </project>
