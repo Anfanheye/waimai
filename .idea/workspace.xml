@@ -16,7 +16,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="使用Redis缓存短信验证码和菜品数据" />
+    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="新增.getignore忽略被指定的文件或文件夹的改动">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/Reggieappliction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/Reggieappliction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/comon/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/comon/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/reggie/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.17033604" />
@@ -87,15 +94,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\Waimai" />
       <recent name="Y:\Waimai\src\main\java\com\reggie\entity" />
       <recent name="Y:\Waimai\src\main\resources\front" />
       <recent name="Y:\Waimai\src\main\resources\front\page" />
       <recent name="Y:\Waimai\src\main\resources\front\api" />
-      <recent name="Y:\Waimai\src\main\java\com\reggie\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Reggieappliction (1)">
-    <configuration name="Reggieappliction (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Reggieappliction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="Waimai" />
       <extension name="coverage">
         <pattern>
@@ -104,20 +111,14 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.Reggieappliction" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reggieappliction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="reggle_take_xiao" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.Reggieappliction" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Reggieappliction (1)" />
+        <item itemvalue="Spring Boot.Reggieappliction" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +159,7 @@
       <workItem from="1665112158299" duration="2102000" />
       <workItem from="1665203663506" duration="7633000" />
       <workItem from="1665213898104" duration="7909000" />
-      <workItem from="1665317189361" duration="4897000" />
+      <workItem from="1665317189361" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="初始代码">
       <created>1662186185121</created>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665321831550</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="新增.getignore忽略被指定的文件或文件夹的改动">
+      <created>1665322379482</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665322379482</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +322,8 @@
     <MESSAGE value="新增了移动端的选择菜品，增减菜品数量，查看和清除购物车功能" />
     <MESSAGE value="新增了结算功能和下单功能" />
     <MESSAGE value="使用Redis缓存短信验证码和菜品数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用Redis缓存短信验证码和菜品数据" />
+    <MESSAGE value="新增.getignore忽略被指定的文件或文件夹的改动" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增.getignore忽略被指定的文件或文件夹的改动" />
   </component>
   <component name="WindowStateProjectService">
     <state x="272" y="0" key="#Project_Structure" timestamp="1658126160946">
@@ -325,10 +334,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="563" y="194" key="#Web_Browsers/0.0.1536.816@0.0.1536.816" timestamp="1662103686410" />
-    <state x="384" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658115166291">
+    <state x="384" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665322559847">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="384" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1658115166291" />
+    <state x="384" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1665322559847" />
     <state x="543" y="248" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1658285701741">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -337,6 +346,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="655" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1665217263891" />
+    <state x="659" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1665322545439">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="659" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.816@0.0.1536.816" timestamp="1665322545439" />
     <state x="484" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1660743790712">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
