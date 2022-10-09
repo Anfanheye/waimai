@@ -16,20 +16,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="新增了移动端的选择菜品，增减菜品数量，查看和清除购物车功能">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/OrderDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/OrderDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/mapper/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/OrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/service/impl/OrdersServiceImpl.java" afterDir="false" />
+    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="新增了结算功能和下单功能">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/reggie/config/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/AddressBookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/controller/AddressBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/controller/AddressBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Waimai.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reggie/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reggie/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +92,9 @@
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.17033604" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -168,7 +168,8 @@
       <workItem from="1665107460128" duration="4644000" />
       <workItem from="1665112158299" duration="2102000" />
       <workItem from="1665203663506" duration="7633000" />
-      <workItem from="1665213898104" duration="5864000" />
+      <workItem from="1665213898104" duration="7909000" />
+      <workItem from="1665317189361" duration="4573000" />
     </task>
     <task id="LOCAL-00001" summary="初始代码">
       <created>1662186185121</created>
@@ -240,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665215700609</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="新增了结算功能和下单功能">
+      <created>1665220009729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665220009729</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +316,8 @@
     <MESSAGE value="无" />
     <MESSAGE value="手写了AddressBookController" />
     <MESSAGE value="新增了移动端的选择菜品，增减菜品数量，查看和清除购物车功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了移动端的选择菜品，增减菜品数量，查看和清除购物车功能" />
+    <MESSAGE value="新增了结算功能和下单功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了结算功能和下单功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="272" y="0" key="#Project_Structure" timestamp="1658126160946">
@@ -351,54 +360,54 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="282" y="145" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1662185556809" />
-    <state width="1493" height="293" key="GridCell.Tab.0.bottom" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="293" key="GridCell.Tab.0.center" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="293" key="GridCell.Tab.0.left" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="293" key="GridCell.Tab.0.right" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="293" key="GridCell.Tab.1.bottom" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="293" key="GridCell.Tab.1.center" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="293" key="GridCell.Tab.1.left" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="293" key="GridCell.Tab.1.right" timestamp="1665219686333">
+    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="293" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665219686333" />
-    <state width="1493" height="252" key="GridCell.Tab.2.bottom" timestamp="1665213871940">
+    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.2.bottom" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665213871940" />
-    <state width="1493" height="252" key="GridCell.Tab.2.center" timestamp="1665213871940">
+    <state width="1493" height="257" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.2.center" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1665213871940" />
-    <state width="1493" height="252" key="GridCell.Tab.2.left" timestamp="1665213871940">
+    <state width="1493" height="257" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.2.left" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1665213871940" />
-    <state width="1493" height="252" key="GridCell.Tab.2.right" timestamp="1665213871940">
+    <state width="1493" height="257" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.2.right" timestamp="1665320866603">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1665213871940" />
+    <state width="1493" height="257" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
     <state x="286" y="84" key="SettingsEditor" timestamp="1662184175049">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
