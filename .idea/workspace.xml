@@ -16,12 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="新增.getignore忽略被指定的文件或文件夹的改动">
+    <list default="true" id="69460f8d-962a-437f-b2c9-16c1832210ae" name="Default Changelist" comment="使用Spring Chche缓存套餐数据">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/Reggieappliction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/Reggieappliction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/comon/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/comon/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reggie/controller/SetmealController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +156,8 @@
       <workItem from="1665112158299" duration="2102000" />
       <workItem from="1665203663506" duration="7633000" />
       <workItem from="1665213898104" duration="7909000" />
-      <workItem from="1665317189361" duration="7541000" />
+      <workItem from="1665317189361" duration="7627000" />
+      <workItem from="1665366227360" duration="6606000" />
     </task>
     <task id="LOCAL-00001" summary="初始代码">
       <created>1662186185121</created>
@@ -252,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665322379482</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="使用Spring Chche缓存套餐数据">
+      <created>1665326434962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665326434962</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +328,8 @@
     <MESSAGE value="新增了结算功能和下单功能" />
     <MESSAGE value="使用Redis缓存短信验证码和菜品数据" />
     <MESSAGE value="新增.getignore忽略被指定的文件或文件夹的改动" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增.getignore忽略被指定的文件或文件夹的改动" />
+    <MESSAGE value="使用Spring Chche缓存套餐数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用Spring Chche缓存套餐数据" />
   </component>
   <component name="WindowStateProjectService">
     <state x="272" y="0" key="#Project_Structure" timestamp="1658126160946">
@@ -370,54 +376,54 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="282" y="145" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1662185556809" />
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.2.bottom" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.2.bottom" timestamp="1665326473658">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.2.center" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665326473658" />
+    <state width="1493" height="257" key="GridCell.Tab.2.center" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.2.left" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.2.left" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
-    <state width="1493" height="257" key="GridCell.Tab.2.right" timestamp="1665320866603">
+    <state width="1493" height="257" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
+    <state width="1493" height="257" key="GridCell.Tab.2.right" timestamp="1665326473657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1665320866603" />
+    <state width="1493" height="257" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1665326473657" />
     <state x="286" y="84" key="SettingsEditor" timestamp="1662184175049">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
